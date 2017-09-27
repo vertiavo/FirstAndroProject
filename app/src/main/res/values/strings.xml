@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zadanie1</string>
+    <string name="greeting">Witaj w aplikacji</string>
+    <string name="editTextHint">Tutaj mozna pisac</string>
+    <string name="checkBoxText">Czekboks</string>
+    <string name="next">Przejdź dalej</string>
+    <string name="option1">Opcja 1</string>
+    <string name="option2">Opcja 2</string>
+    <string name="option3">Opcja 3</string>
+    <string name="inserted_values">Wpisane wartości</string>
+    <string name="last_activity">Przejdź do stanów</string>
+</resources>

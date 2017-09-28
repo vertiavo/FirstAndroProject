@@ -24,60 +24,10 @@ public class MainActivity extends Activity {
     public static final String NUMSTARS = "com.vertiavo.zadanie1.NUMSTARS";
     public static final String CHECKED_RADIO_BUTTON = "com.vertiavo.zadanie1.CHECKED_RADIO_BUTTON";
 
-    public static final String LIFE_CYCLE_LOG = "LifeCycleLog";
-    private Timestamp timestamp;
-    private ArrayList<String> cycleLog;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        timestamp = new Timestamp(System.currentTimeMillis());
-        cycleLog = new ArrayList<>();
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onCreate() called");
-        cycleLog.add(timestamp.toString() + " onCreate() called");
-    }
-
-    public void onStart() {
-        super.onStart();
-        timestamp = new Timestamp(System.currentTimeMillis());
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onStart() called");
-        cycleLog.add(timestamp.toString() + " onStart() called");
-    }
-
-    public void onRestart() {
-        super.onRestart();
-        timestamp = new Timestamp(System.currentTimeMillis());
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onRestart() called");
-        cycleLog.add(timestamp.toString() + " onRestart() called");
-    }
-
-    public void onResume() {
-        super.onResume();
-        timestamp = new Timestamp(System.currentTimeMillis());
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onResume() called");
-        cycleLog.add(timestamp.toString() + " onResume() called");
-    }
-
-    public void onPause() {
-        super.onPause();
-        timestamp = new Timestamp(System.currentTimeMillis());
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onPause() called");
-        cycleLog.add(timestamp.toString() + " onPause() called");
-    }
-
-    public void onStop() {
-        super.onStop();
-        timestamp = new Timestamp(System.currentTimeMillis());
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onStop() called");
-        cycleLog.add(timestamp.toString() + " onStop() called");
-    }
-
-    public void onDestroy() {
-        super.onDestroy();
-        timestamp = new Timestamp(System.currentTimeMillis());
-        Log.d(LIFE_CYCLE_LOG, timestamp.toString() + " onDestroy() called");
-        cycleLog.add(timestamp.toString() + " onDestroy() called");
     }
 
     public void sendInfo(View view) {
@@ -103,7 +53,6 @@ public class MainActivity extends Activity {
         intent.putExtra(CHECKED, checked);
         intent.putExtra(NUMSTARS, numStars);
         intent.putExtra(CHECKED_RADIO_BUTTON, checkedRadioButtonId);
-        intent.putStringArrayListExtra(LIFE_CYCLE_LOG, cycleLog);
 
         startActivity(intent);
     }

@@ -47,9 +47,6 @@ public class DisplayInfoActivity extends Activity {
     public void showCycles(View view) {
         Intent intent = new Intent(this, DisplayCycleActivity.class);
 
-        ArrayList<String> cycleLog = previousIntent.getStringArrayListExtra(MainActivity.LIFE_CYCLE_LOG);
-        intent.putStringArrayListExtra(MainActivity.LIFE_CYCLE_LOG, cycleLog);
-
         startActivity(intent);
     }
 }

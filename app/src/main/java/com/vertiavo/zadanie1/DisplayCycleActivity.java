@@ -17,7 +17,6 @@ public class DisplayCycleActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_cycle);
-
         updateLog("onCreate");
     }
 
@@ -58,7 +57,6 @@ public class DisplayCycleActivity extends Activity {
 
         cycleLog = rebuildLog(timestamp.toString() + " : " + methodName + "() called");
         updateTextView();
-
     }
 
     private String rebuildLog(String newLogLine) {

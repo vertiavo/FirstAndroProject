@@ -1,12 +1,19 @@
 <resources>
     <string name="app_name">Zadanie1</string>
-    <string name="greeting">Witaj w aplikacji</string>
-    <string name="editTextHint">Tutaj mozna pisac</string>
-    <string name="checkBoxText">Czekboks</string>
-    <string name="next">Przejdź dalej</string>
-    <string name="option1">Opcja 1</string>
-    <string name="option2">Opcja 2</string>
-    <string name="option3">Opcja 3</string>
-    <string name="inserted_values">Wpisane wartości</string>
-    <string name="last_activity">Przejdź do stanów</string>
+    <string name="greeting">Welcome in app</string>
+    <string name="editTextHint">Write here</string>
+    <string name="checkBoxText">Sample checkbox</string>
+    <string name="second_activity">Show answers</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="inserted_values">Inserted values</string>
+    <string name="last_activity">Show lifecycle</string>
+    <string name="no_text_inserted">No text inserted</string>
+    <string name="edit_string_result">Inserted text</string>
+    <string name="seekbar_result">Seekbar status:</string>
+    <string name="checkbox_result">Checkbox status:</string>
+    <string name="rating_result">Rating status:</string>
+    <string name="no_radio_result">No radio button is checked.</string>
+    <string name="radio_result">Chosen radio id:</string>
 </resources>

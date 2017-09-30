@@ -2,7 +2,7 @@
     <string name="app_name">Zadanie1</string>
     <string name="greeting">Welcome in app</string>
     <string name="editTextHint">Write here</string>
-    <string name="checkBoxText">Sample checkbox</string>
+    <string name="checkBoxText">Option</string>
     <string name="second_activity">Show answers</string>
     <string name="option1">Option 1</string>
     <string name="option2">Option 2</string>
@@ -16,4 +16,9 @@
     <string name="rating_result">Rating status:</string>
     <string name="no_radio_result">No radio button is checked.</string>
     <string name="radio_result">Chosen radio id:</string>
+    <string name="insert_your_name">Insert your name</string>
+    <string name="some_seekbar">Some seekbar</string>
+    <string name="checkbox_label">Checkbox label</string>
+    <string name="rating">Rating</string>
+    <string name="sample_radio_group">Sample radio group</string>
 </resources>
